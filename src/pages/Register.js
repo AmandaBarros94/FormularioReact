@@ -24,7 +24,7 @@ export default class Register extends Component {
                         </h4>
 
                         <h3> Já tem uma conta? 
-                        <Link to="/login"> Entrar</Link>
+                        <Link to="/"> Entrar</Link>
                             </h3> 
             </div>
         )
