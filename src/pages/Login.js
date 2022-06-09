@@ -6,25 +6,18 @@ export default class Login extends Component {
     return (
       <div className='fragment'>
 
-      <div className='loginpage'>
-      
-      </div>
       <div className='Login'>
-        <h1>
-          Creact Account
-        </h1>
+        
         <h3>
-          or use your email for registration
+         
         </h3>
       
       <h4>
-      welcome to your free online resume generator
+     Bem vindo ao easy job
       </h4>
-         <input type="text" name="Email " size="40" /> 
+         <input type="text" placeholder='Email ou nome de usuário' name="Email " size="40" /> 
         
-         <input type="text" name="Email " size="40" /> 
-         
-         <input type="text" name="Nome" size="40" /> 
+         <input type="password" placeholder='Senha' name="Email " size="40" /> 
 
          <button type="submit">submit</button>
 
