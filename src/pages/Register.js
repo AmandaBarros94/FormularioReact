@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export default class Register extends Component {
     render() {
@@ -17,6 +18,14 @@ export default class Register extends Component {
                 <input type="password" placeholder='Senha' name="Email " size="40" />
         
                         <button type="submit"> Cadastre-se</button>
+
+                        <h4>
+                        Ao se inscrever, você concorda com os Termos de Serviço e a Política de Privacidade, incluindo o Uso de Cookies.
+                        </h4>
+
+                        <h3> Já tem uma conta? 
+                        <Link to="/login"> Entrar</Link>
+                            </h3> 
             </div>
         )
     }
